@@ -6,6 +6,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="css/home-page/home-page.css">
+  <script src="./js/components/acordion.js" defer></script>
   <title>Change Logo Mac</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
   <div class="container">
     <nav class="navbar">
       <a href="#" class="navbar-logo">
-        <img src="./img/home-page/navbar/logo.png" alt="CLM-logo" class="navbar-logo__img">
+        <img src="./img/home-page/navbar/logo.svg" alt="CLM-logo" class="navbar-logo__img">
       </a>
       <div class="navbar-menu">
         <ul class="navbar-menu-list">
@@ -25,7 +26,7 @@
             <a href="#about" class="navbar-menu-list-item__link">About</a>
           </li>
           <li class="navbar-menu-list-item">
-            <a href="" class="navbar-menu-list-item__link">FAQs</a>
+            <a href="#faqs" class="navbar-menu-list-item__link">FAQs</a>
           </li>
         </ul>
       </div>
@@ -94,6 +95,97 @@
         <img src="./img/home-page/about/iMac-screen.png" alt="two-iMac-screen" class="section-about-footer__img">
       </div>
     </section>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="container">
+    <section id="faqs" class="section-faqs">
+      <h2 class="section-faqs__heading">Frequently Asked Questions</h2>
+      <div class="accordion">
+        <ul class="accordion-list">
+          <li class="accordion-list-item">
+            <div class="accordion-list-item-heading">
+              <span class="accordion-list-item-heading__text">What is this program, and what does it do?</span>
+              <img src="./img/home-page/faqs/icon_plus.svg" alt="plus" class="accordion-list-item-img__plus">
+              <img src="./img/home-page/faqs/icon_minus.svg" alt="minus" class="accordion-list-item-img__minus">
+            </div>
+            <p class="accordion-list-item__text">This program is an application designed to change the color of the artificial backlighting on the MacBook logo on the lid. With this application, users can customize the color of their Mac logo to add a personal touch or style.</p>
+          </li>
+          <li class="accordion-list-item">
+            <div class="accordion-list-item-heading">
+              <span class="accordion-list-item-heading__text">Which MacBook models are supported by this program?</span>
+              <img src="./img/home-page/faqs/icon_plus.svg" alt="plus" class="accordion-list-item-img__plus">
+              <img src="./img/home-page/faqs/icon_minus.svg" alt="minus" class="accordion-list-item-img__minus">
+            </div>
+            <p class="accordion-list-item__text">The program is developed to support all MacBook models.</p>
+          </li>
+          <li class="accordion-list-item">
+            <div class="accordion-list-item-heading">
+              <span class="accordion-list-item-heading__text">How can I change the color of the logo using this program?</span>
+              <img src="./img/home-page/faqs/icon_plus.svg" alt="plus" class="accordion-list-item-img__plus">
+              <img src="./img/home-page/faqs/icon_minus.svg" alt="minus" class="accordion-list-item-img__minus">
+            </div>
+            <p class="accordion-list-item__text">After installing the program, open it and select the desired color from the available options. Then simply click the "Apply" button, and the color of the logo on your MacBook will change accordingly.</p>
+          </li>
+          <li class="accordion-list-item">
+            <div class="accordion-list-item-heading">
+              <span class="accordion-list-item-heading__text">Is an internet connection required for this program?</span>
+              <img src="./img/home-page/faqs/icon_plus.svg" alt="plus" class="accordion-list-item-img__plus">
+              <img src="./img/home-page/faqs/icon_minus.svg" alt="minus" class="accordion-list-item-img__minus">
+            </div>
+            <p class="accordion-list-item__text">No, the program works offline, and there is no need for an internet connection to use it.</p>
+          </li>
+          <li class="accordion-list-item">
+            <div class="accordion-list-item-heading">
+              <span class="accordion-list-item-heading__text">Can I use my custom color or image?</span>
+              <img src="./img/home-page/faqs/icon_plus.svg" alt="plus" class="accordion-list-item-img__plus">
+              <img src="./img/home-page/faqs/icon_minus.svg" alt="minus" class="accordion-list-item-img__minus">
+            </div>
+            <p class="accordion-list-item__text">Unfortunately, at the moment, the program only allows selecting colors from the provided set of options. Using custom colors or images is not supported.</p>
+          </li>
+          <li class="accordion-list-item">
+            <div class="accordion-list-item-heading">
+              <span class="accordion-list-item-heading__text">Will my MacBook's warranty be voided after using the program?</span>
+              <img src="./img/home-page/faqs/icon_plus.svg" alt="plus" class="accordion-list-item-img__plus">
+              <img src="./img/home-page/faqs/icon_minus.svg" alt="minus" class="accordion-list-item-img__minus">
+            </div>
+            <p class="accordion-list-item__text">No, using this program should not affect your MacBook's warranty. However, it is always recommended to refer to official sources or Apple support for more accurate information.</p>
+          </li>
+          <li class="accordion-list-item">
+            <div class="accordion-list-item-heading">
+              <span class="accordion-list-item-heading__text">Can I use the program on other devices unrelated to MacBook?</span>
+              <img src="./img/home-page/faqs/icon_plus.svg" alt="plus" class="accordion-list-item-img__plus">
+              <img src="./img/home-page/faqs/icon_minus.svg" alt="minus" class="accordion-list-item-img__minus">
+            </div>
+            <p class="accordion-list-item__text">No, this program is specifically designed for MacBook and does not support other devices.</p>
+          </li>
+          <li class="accordion-list-item">
+            <div class="accordion-list-item-heading">
+              <span class="accordion-list-item-heading__text">Will there be additional color options in future updates?</span>
+              <img src="./img/home-page/faqs/icon_plus.svg" alt="plus" class="accordion-list-item-img__plus">
+              <img src="./img/home-page/faqs/icon_minus.svg" alt="minus" class="accordion-list-item-img__minus">
+            </div>
+            <p class="accordion-list-item__text">The development team is constantly working on improving the program and may add new features in future updates. You can keep an eye on the program's updates in the official app store.</p>
+          </li>
+          <li class="accordion-list-item">
+            <div class="accordion-list-item-heading">
+              <span class="accordion-list-item-heading__text">What should I do if I encounter issues with the program?</span>
+              <img src="./img/home-page/faqs/icon_plus.svg" alt="plus" class="accordion-list-item-img__plus">
+              <img src="./img/home-page/faqs/icon_minus.svg" alt="minus" class="accordion-list-item-img__minus">
+            </div>
+            <p class="accordion-list-item__text">If you encounter difficulties using the program, you can contact the developer's support team, providing them with a detailed description of the issue. Also, before reaching out to support, try restarting the program or reinstalling it – this might resolve some issues.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="container">
+    <section class="section-start">
+
   </div>
 </div>
 
