@@ -1,0 +1,36 @@
+.wrapper-start {
+  background: linear-gradient(rgba(22, 28, 36, 0.8), rgba(22, 28, 36, 0.8)), no-repeat center/cover url("../../../img/home-page/start/macBook-illuminate.jpg");
+}
+
+.section-start {
+  margin-top: 60px;
+}
+
+.section-start-info {
+  padding: 342px 0;
+}
+
+.section-start-info__header {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  color: var(--simple-white);
+  opacity: 60%;
+}
+
+.section-start-info__discription {
+  margin-bottom: 48px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  color: var(--simple-white);
+}
+
+.section-start-info-btn {
+  margin: 0 auto;
+}
+
+.section-start-info__img {}
