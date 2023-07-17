@@ -1,0 +1,16 @@
+.footer {
+  margin: 60px 0;
+}
+
+.footer-info {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-info-link {}
+
+.footer-info-link__img {
+  min-width: 96px;
+}
+
+.footer-info__copyright {}
