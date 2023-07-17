@@ -1,0 +1,39 @@
+.wrapper-hero {
+  background-color: var(--simple-black);
+}
+
+.section-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-hero__img {
+  max-width: 530px;
+  max-height: 670px;
+  padding: 115px 0;
+}
+
+.section-hero-info {
+  max-width: 540px;
+}
+
+.section-hero-info__header {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--simple-white);
+}
+
+.section-hero-info__discription {
+  margin-bottom: 32px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+  color: var(--simple-white);
+}
+
+.section-hero-info-btn {}
+
+.section-hero-info-btn__img {}

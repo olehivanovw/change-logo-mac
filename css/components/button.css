@@ -1,0 +1,17 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: var(--simple-purpure);
+  color: var(--simple-white);
+  max-width: 216px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: var(--simple-violet);
+}

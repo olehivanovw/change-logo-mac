@@ -1,0 +1,12 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./reset.css";
+@import "./components/button.css";
+
+.wrapper {}
+
+.container {
+  max-width: 1056px;
+  margin: 0 auto;
+  padding: 0 12px;
+}

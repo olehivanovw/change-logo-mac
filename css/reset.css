@@ -1,0 +1,39 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  color: var(--simple-gray);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--simple-white);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+}
