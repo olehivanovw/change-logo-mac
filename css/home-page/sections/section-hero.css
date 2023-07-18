@@ -36,3 +36,51 @@
 .section-hero-info-btn {}
 
 .section-hero-info-btn__img {}
+
+@media (max-width: 780px) {
+  .section-hero {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+  }
+
+  .section-hero__img {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+  }
+
+  .section-hero-info {
+    margin: 0 auto;
+    padding-bottom: 115px;
+  }
+
+  .section-hero-info__header {
+    text-align: center;
+  }
+
+  .section-hero-info__discription {
+    text-align: center;
+  }
+
+  .section-hero-info-btn {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 420px) {
+   .section-hero__img {
+    margin: 0 auto;
+    max-width: 300px;
+  }
+
+  .section-hero-info__header {
+    font-size: 28px;
+  }
+
+  .section-hero-info__discription {
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

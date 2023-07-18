@@ -63,3 +63,32 @@
 }
 
 .section-about-footer__img {}
+
+@media (max-width: 780px) {
+  .section-about-discription {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+  }
+
+  .section-about-discription-block__text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .section-about-discription__img {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+
+  .section-about-discription__img.tablet-width {
+    order: 1;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-about-header__heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
