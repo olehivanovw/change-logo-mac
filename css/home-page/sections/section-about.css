@@ -30,9 +30,15 @@
   justify-content: space-between;
 }
 
-.section-about-discription__text {
+.section-about-discription-block {}
+
+.section-about-discription-block__text {
   max-width: 504px;
   line-height: 24px;
+}
+
+.section-about-discription-block__text:nth-child(-n+2) {
+  margin-bottom: 24px;
 }
 
 .section-about-discription__img {
@@ -43,10 +49,17 @@
   margin-top: 60px;
 }
 
-.section-about-footer__text {
+.section-about-footer-discription {
   margin-bottom: 48px;
+}
+
+.section-about-footer-discription__text {
   text-align: center;
   line-height: 24px;
+}
+
+.section-about-footer-discription__text:nth-child(-n+2) {
+  margin-bottom: 24px;
 }
 
 .section-about-footer__img {}
