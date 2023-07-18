@@ -29,6 +29,7 @@
 }
 
 .accordion-list-item-heading__text {
+  margin-right: 40px;
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -58,4 +59,11 @@
 .accordion-list-item__text.open {
   display: block;
   margin: 16px 72px 0 0;
+}
+
+@media (max-width: 420px) {
+  .section-faqs__heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }

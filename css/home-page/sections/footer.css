@@ -14,3 +14,13 @@
 }
 
 .footer-info__copyright {}
+
+@media (max-width: 420px) {
+  .footer-info-link__img {
+    min-width: 50%;
+  }
+
+  .footer-info__copyright {
+    font-size: 12px;
+  }
+}

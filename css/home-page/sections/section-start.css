@@ -16,8 +16,7 @@
   font-size: 40px;
   font-weight: 800;
   line-height: 48px;
-  color: var(--simple-white);
-  opacity: 60%;
+  color: var(--simple-gray);
 }
 
 .section-start-info__discription {
@@ -34,3 +33,21 @@
 }
 
 .section-start-info__img {}
+
+@media (max-width: 420px) {
+  .section-start-info {
+    padding: 222px 0;
+  }
+
+  .section-start-info__header {
+    margin-bottom: 24px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .section-start-info__discription {
+    margin-bottom: 48px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
